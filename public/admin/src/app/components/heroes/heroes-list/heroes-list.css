@@ -1,0 +1,8 @@
+.hero-item {
+  cursor: pointer !important;
+  color: #aaa; }
+  .hero-item--active {
+    background-color: #fafafa; }
+  .hero-item:hover {
+    color: #666;
+    background-color: #fafafa; }

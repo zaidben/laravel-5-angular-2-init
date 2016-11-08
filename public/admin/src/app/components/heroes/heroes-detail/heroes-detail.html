@@ -1,0 +1,11 @@
+<h3><span (click)="goToHeroes()" class="btn btn-default">retour</span>&nbsp;&nbsp;heroes detail</h3>
+<div class="row">
+    <div class="col-lg-12">
+        <h4>{{hero.name}}</h4>
+        <hr>
+        <p>id : {{hero.id}}</p>
+        name : 
+        <input type="text" [(ngModel)]="hero.name">
+        <button type="button" (click)="updateHero()">save</button>
+    </div>
+</div>
